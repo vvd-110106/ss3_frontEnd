@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://ss9html.com"></form>
+    <div>
+        <label for="name">Họ và Tên:</label>
+        <input type="name" id="name" name="name">
+    </div>
+    <div>
+        <label for="date">Ngày sinh:</label>
+        <input type="date" id="date" name="date">
+    </div>
+    <div>
+        <label for="ngay_sinh">Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Nam</label>
+            <input type="radio" id="fenale" name="gender" value="fenale">
+            <label for="fenale">Nữ</label>
+    </div>
+    <div>
+        <label for="phone">Số điện thoại:</label>
+        <input type="phone" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+    </div>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Email" id="email" name="email">
+    </div>
+    <div>
+        <label for="noi_o">Địa chỉ:</label>
+        <textarea name="noi_o" id="noi_o"></textarea>
+    </div>
+    <div>
+        <label for="vaitro">Vai trò trong nhóm:</label>
+        <select name="vaitro" id="vaitro">
+            <option value="1">Vai trò 1</option>
+            <option value="2">Vai trò 2</option>
+            <option value="3">Vai trò 3</option>
+        </select>
+    </div>
+    <div>
+        <label for="sothich">Sở thích:</label>
+        <input type="text" id="sothich" name="sothich">
+    </div>
+    <div>
+        <label for="kynang">Kỹ năng:</label>
+        <textarea name="kynang" id="kynang"></textarea>
+    </div>
+    <div>
+        <label for="time">Thời gian rảnh:</label>
+        <input type="checkbox" id="sang" name="sang" value="sang">
+            <label for="sang">Sáng</label>
+            <input type="checkbox" id="chieu" name="chieu" value="chieu">
+            <label for="chieu">Chiều</label>
+            <input type="checkbox" id="toi" name="toi" value="toi">
+            <label for="toi">Tối</label>
+    </div>
+    <div>
+        <label for="why">Lý do tham gia nhóm:</label>
+        <textarea name="why" id="why"></textarea>
+    </div>
+    <div>
+        <label for="mau">Màu yêu thích:</label>
+        <input type="text" name="mau" id="mau" style="text-align: center; background-color: red;" checked>
+    </div>
+    <div>
+        <label for="dki">Đăng kí nhận bản tin:</label>
+        <input type="radio" id="co" name="co" value="co">
+            <label for="co">Có</label>
+    </div>
+    <div>
+        <label for="nhan_tb">Nhận thông báo qua:</label>
+        <input type="radio" id="mail" name="mail" value="mail">
+            <label for="mail">Email</label>
+            <input type="radio" id="sms" name="sms" value="sms">
+            <label for="sms">SMS</label>
+    </div>
+    <div><button>Đăng kí thành viên</button></div>
+</body>
+</html>
