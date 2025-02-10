@@ -1,86 +1,99 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <form action="http://ss10html.com">
-        <div>
-            <label for="name">Họ và tên:</label>
-            <input type="text" id="name" name="name">
-        </div>
-        <div>
-            <label for="ngay_sinh">Ngày sinh:</label>
-            <input type="date" id="ngay_sinh" name="ngay_sinh">
-        </div>
-        <div>
-            <label>Giới tính:</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Nam</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Nữ</label>
-        </div>
-        <div>
-            <label for="phone">Số điện thoại:</label>
-            <input type="tel" id="phone" name="phone">
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-        </div>
-        <div>
-            <label for="ten_cong_ty">Tên công ty:</label>
-            <input type="text" id="ten_cong_ty" name="ten_cong_ty">
-        </div>
-        <div>
-            <label for="vai_tro">Vai trò:</label>
-            <select id="vai_tro" name="vai_tro">
-                <option value="ceo">Giám đốc điều hành</option>
-                <option value="manager">Quản lý</option>
-            </select>
-        </div>
-        <div>
-            <label for="quy_mo">Quy mô công ty:</label>
-            <select id="quy_mo" name="quy_mo">
-                <option value="small">Nhỏ</option>
-                <option value="large">Lớn</option>
-            </select>
-        </div>
-        <div>
-            <label for="nganh_nghe">Ngành nghề:</label>
-            <input type="text" id="nganh_nghe" name="nganh_nghe">
-        </div>
-        <div>
-            <label for="ly_do">Lý do tham gia:</label>
-            <textarea id="ly_do" name="ly_do"></textarea>
-        </div>
-        <div>
-            <label for="kinh_nghiem">Kinh nghiệm:</label>
-            <textarea id="kinh_nghiem" name="kinh_nghiem"></textarea>
-        </div>
-        <div>
-            <label for="muc_tieu">Mục tiêu:</label>
-            <textarea id="muc_tieu" name="muc_tieu"></textarea>
-        </div>
-        <div>
-            <label>Sự kiện tham gia:</label>
-            <input type="checkbox" id="networking" name="networking" value="networking">
-            <label for="networking">Networking</label>
-            <input type="checkbox" id="workshop" name="workshop" value="workshop">
-            <label for="workshop">Workshops</label>
-            <input type="checkbox" id="hoi_thao" name="hoi_thao" value="hoi_thao">
-            <label for="hoi_thao">Hội thảo</label>
-        </div>
-        <div>
-            <label>Nhận bản tin:</label>
-            <input type="radio" id="nhan_tin" name="nhan_tin">
-            <label for="nhan_tin">Có</label>
-        </div>
-        <div>
-            <button type="submit">Đăng ký</button>
-        </div>
+        <table>
+            <tr>
+                <td><label for="name">Họ và tên:</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="ngay_sinh">Ngày sinh:</label></td>
+                <td><input type="date" id="ngay_sinh" name="ngay_sinh"></td>
+            </tr>
+            <tr>
+                <td><label>Giới tính:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Số điện thoại:</label></td>
+                <td><input type="tel" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="ten_cong_ty">Tên công ty:</label></td>
+                <td><input type="text" id="ten_cong_ty" name="ten_cong_ty"></td>
+            </tr>
+            <tr>
+                <td><label for="vai_tro">Vai trò:</label></td>
+                <td>
+                    <select id="vai_tro" name="vai_tro">
+                        <option value="ceo">Giám đốc điều hành</option>
+                        <option value="manager">Quản lý</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="quy_mo">Quy mô công ty:</label></td>
+                <td>
+                    <select id="quy_mo" name="quy_mo">
+                        <option value="small">Nhỏ</option>
+                        <option value="large">Lớn</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="nganh_nghe">Ngành nghề:</label></td>
+                <td><input type="text" id="nganh_nghe" name="nganh_nghe"></td>
+            </tr>
+            <tr>
+                <td><label for="ly_do">Lý do tham gia:</label></td>
+                <td><textarea id="ly_do" name="ly_do"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="kinh_nghiem">Kinh nghiệm:</label></td>
+                <td><textarea id="kinh_nghiem" name="kinh_nghiem"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="muc_tieu">Mục tiêu:</label></td>
+                <td><textarea id="muc_tieu" name="muc_tieu"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Sự kiện tham gia:</label></td>
+                <td>
+                    <input type="checkbox" id="networking" name="networking" value="networking">
+                    <label for="networking">Networking</label>
+                    <input type="checkbox" id="workshop" name="workshop" value="workshop">
+                    <label for="workshop">Workshops</label>
+                    <input type="checkbox" id="hoi_thao" name="hoi_thao" value="hoi_thao">
+                    <label for="hoi_thao">Hội thảo</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Nhận bản tin:</label></td>
+                <td><input type="radio" id="nhan_tin" name="nhan_tin"></td>
+                <td><label for="nhan_tin">Có</label></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Đăng ký</button></td>
+            </tr>
+        </table>
     </form>
 </body>
+
 </html>
